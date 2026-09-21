@@ -238,7 +238,7 @@ python app.py
   a determined user could in theory rename the exe file to bypass it.
   For controlling ordinary users on your own PCs this is sufficient;
   defending against deliberate evasion needs a different layer
-  (AppLocker/GPO) — ask if you need pointers.
+  (AppLocker/GPO).
 - The agent should only ever terminate real user applications — the
   `NEVER_KILL` list in the code protects core system processes, but
   avoid adding system process names to the block rules.
